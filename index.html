@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Weird Whack-A-Mole</title>
+  </head>
+  <style type="text/css">
+    .tile {
+      border-style: solid;
+      width: 100px;
+      height: 100px;
+      display: inline-block;
+      border-radius: 50px;
+      margin: 10px;
+    }
+
+    .beaver {
+      width: 70px;
+      height: 70px;                                              border-radius: 35px;
+      padding: 10px;
+      display: none;
+    }
+
+    #0 {                                                         display: none;
+    }
+  </style>
+
+  </style>
+  <script src = "logic.js">
+  </script>
+  <body>
+
+    <!--Play Area-->
+    <div align = "center">
+
+      <div class="tile" id="1" onclick="next(id);">
+        <img class="beaver" src="mole.png" style="display: block;">
+      </div>
+
+      <div class="tile" id="2" onclick="next(id);">
+        <img class="beaver" src="mole.png">
+      </div>
+
+      <div class="tile" id="3" onclick="next(id);">
+        <img class="beaver" src="mole.png">
+      </div><br>
+
+      <div class="tile" id="4" onclick="next(id);">
+        <img class="beaver" src="mole.png">
+      </div>
+
+      <div class="tile" id="5" onclick="next(id);">
+        <img class="beaver" src="mole.png">
+      </div>
+
+      <div class="tile" id="6" onclick="next(id);">
+        <img class="beaver" src="mole.png">
+      </div><br>
+
+      <div class="tile" id="7" onclick="next(id);">
+        <img class="beaver" src="mole.png">
+      </div>
+
+      <div class="tile" id="8" onclick="next(id);">
+        <img class="beaver" src="mole.png">
+      </div>
+
+      <div class="tile" id="9" onclick="next(id);">
+        <img class="beaver" src="mole.png">
+
+      </div>
+    </div>
+
+    <!-- Empty Area for game's Logic -->
+    <div id="0">
+
+    </div>
+    </button>
+  </body>
+</html>
